@@ -98,7 +98,7 @@ function Signin() {
                         <Button type="submit">Create</Button>
                     </div>
                     <br/>
-                    <span>Already have an account?<NavLink to="/">Log In</NavLink></span>
+                    <span>Already have an account?<NavLink to="/to_do_list/">Log In</NavLink></span>
                 </form>}
             </div>
         </div>
