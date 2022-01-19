@@ -76,7 +76,7 @@ function Login() {
                     <div className={Styles.submit_btn}>
                         <Button type="submit">Login</Button>
                     </div>
-                    <span>Don't have an account?<NavLink to="/sign-in">Click Here.</NavLink></span>
+                    <span>Don't have an account?<NavLink to="/to_do_list/sign-in">Click Here.</NavLink></span>
                 </form>}
             </div>
         </div>
