@@ -62,7 +62,7 @@ function Signin() {
                     confirm_password:""
                 });
                 alert("Welcome to the club!");
-                history.push(`/home?username=${newUser.username}`);
+                history.push(`/to_do_list/home?username=${newUser.username}`);
                 // console.log(res);
             }).catch((err)=>{
                 console.log(err);

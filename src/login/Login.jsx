@@ -25,7 +25,6 @@ function Login() {
             console.log(res);
         });
     };
-
     useEffect(()=>{
         getUserData();
     },[]);
@@ -36,7 +35,7 @@ function Login() {
         console.log(loggedUser)
         if(loggedUser){
             if(loggedUser.username === username && loggedUser.password === password){
-                history.push(`/home?username=${username}`);
+                history.push(`/to_do_list/home?username=${username}`);
             }else{
                 document.querySelector(".err").innerText = "Password or Username was incorrect.";
             }
